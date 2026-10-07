@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Oğuzhan Şanalan — Personal Archive</title>
+<meta name="description" content="Oğuzhan Şanalan — teknoloji, müzik, yazı, seyahat ve kişisel arşiv.">
+<meta property="og:title" content="Oğuzhan Şanalan — Personal Archive">
+<meta property="og:description" content="Oğuzhan Şanalan kişisel arşiv ve portföy sitesi.">
+<meta property="og:image" content="photos/profile.jpg">
+<link rel="icon" type="image/png" sizes="64x64" href="photos/favicon-64.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<button id="music-control" class="music-control" type="button" aria-label="Müziği aç/kapat">♫ <span>Sabah Beş</span></button>
+
+<!-- Yerel müzik dosyası: site açılır açılmaz otomatik başlatılır. -->
+<audio id="site-music" autoplay loop preload="auto" playsinline aria-label="Noma - Sabah Beş" src="media/music/sabah-bes.mp3"></audio>
+
+<div class="grain"></div>
+<div class="mouse-light"></div>
+
+<header class="nav">
+  <button class="logo admin-trigger" id="admin-trigger" type="button" aria-label="Yönetici girişini aç"><img src="photos/os-logo.png" alt="OŞ"></button>
+  <div class="nav-links">
+    <a href="#about">Hikâye</a>
+    <a href="#profile">Ben</a>
+    <a href="#world">Dünya</a>
+    <a href="#tech-radar">Teknoloji</a>
+    <a href="#gallery">Arşiv</a>
+    <a href="#music">Müzik</a>
+    <a href="#wegh-archive">Wegh</a>
+    <a href="https://www.instagram.com/oguzhn_snl/" target="_blank" rel="noopener">Instagram</a>
+    <a href="#contact">İletişim</a>
+  </div>
+  <a class="pill" href="#contact">İLETİŞİM <b>↗</b></a>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="meta"><span class="dot"></span> OĞUZHAN ŞANALAN · 1997</div>
+    <h1>Bir hayat.<br><i>Bir iz.</i></h1>
+    <p>Teknolojiyle meraklanan, müzikle enerji bulan, yazarak düşünen ve yola çıktığında yeni hikâyeler toplayan kişisel arşiv.</p>
+    <div class="actions">
+      <a class="btn light" href="#about">BENİ TANI <span>↓</span></a>
+      <a class="btn dark" href="https://www.instagram.com/oguzhn_snl/" target="_blank" rel="noopener">INSTAGRAM <span>↗</span></a>
+    </div>
+  </div>
+  <div class="hero-sign">OĞUZHAN<br>ŞANALAN</div>
+  <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span>ISTANBUL / TR</span></div>
+</section>
+
+<section id="about" class="section intro">
+  <div class="label">01 / HİKÂYE</div>
+  <div class="intro-grid">
+    <div class="profile-card">
+      <img id="profile-photo" src="photos/profile.jpg" alt="Oğuzhan Şanalan profil fotoğrafı">
+      <a id="profile-download" class="profile-download" href="photos/profil-full.jpg" download="oguzhan-sanalan-profil.jpg">PROFİL FOTOĞRAFINI İNDİR <span>↓</span></a>
+    </div>
+    <div>
+      <h2>Benim için hayat, <em>detaylarda.</em></h2>
+    </div>
+    <div class="copy">
+      <p>26 Haziran 1997 doğumlu Oğuzhan Şanalan. Bilgisayarlar ve teknoloji dünyası ilgisini çekiyor; müzikte özellikle rap dinliyor, yazmayı seviyor ve fırsat buldukça yeni yerler keşfediyor.</p>
+      <p>Bu site bir CV değil. Daha çok bana benzeyen şeylerin toplandığı bir dijital alan: fotoğraflar, fikirler, şehirler, sesler ve zaman içinde değişen ben.</p>
+      <div class="stats">
+        <div><strong>1997</strong><span>başlangıç</span></div>
+        <div><strong>TECH</strong><span>merak</span></div>
+        <div><strong>RAP</strong><span>ritim</span></div>
+        <div><strong>TRAVEL</strong><span>hareket</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="world" class="section world">
+  <div class="label">02 / DÜNYA</div>
+  <div class="cards">
+    <article><span>01</span><b>TEKNOLOJİ</b><p>Yeni cihazlar, bilgisayarlar, dijital dünya ve “bunu nasıl yapabiliriz?” sorusu.</p><i>⌘</i></article>
+    <article><span>02</span><b>MÜZİK</b><p>Rap başta olmak üzere ruh haline göre değişen sesler ve keşifler.</p><i>♪</i></article>
+    <article><span>03</span><b>YAZI</b><p>Düşünceleri kelimelere dönüştürmek ve bir şeyi kendi cümlemle anlatmak.</p><i>✎</i></article>
+    <article><span>04</span><b>SEYAHAT</b><p>Şehirler, sokaklar, gün batımları ve planlanmamış rotalar.</p><i>↗</i></article>
+  </div>
+</section>
+
+
+<section id="tech-radar" class="section tech-radar">
+  <div class="tech-head">
+    <div>
+      <div class="label">03 / TEKNOLOJİ RADARI</div>
+      <h2>Yeni telefonlar.<br><em>Yeni bilgisayarlar.</em></h2>
+      <p>Güncel modelleri, ürün görsellerini, temel teknik özellikleri ve Türkiye fiyatlarını tek yerde gör. Kartlardaki görseller cihazı hızlıca tanımanı sağlar; veri tarafı desteklenen hostinglerde otomatik olarak yenilenir.</p>
+    </div>
+    <div class="tech-status-panel">
+      <div class="tech-live-dot"><i></i><span id="tech-status">Güncel veri yükleniyor…</span></div>
+      <span id="tech-updated">Son kontrol: —</span>
+      <button id="tech-refresh" class="tech-refresh" type="button">↻ ŞİMDİ GÜNCELLE</button>
+    </div>
+  </div>
+  <div class="tech-toolbar">
+    <div class="tech-tabs">
+      <button class="tech-tab active" data-tech-filter="all" type="button">Tümü</button>
+      <button class="tech-tab" data-tech-filter="phone" type="button">Telefon</button>
+      <button class="tech-tab" data-tech-filter="computer" type="button">Bilgisayar</button>
+    </div>
+    <label class="tech-search"><span>⌕</span><input id="tech-search" type="search" placeholder="Model veya marka ara…" aria-label="Teknoloji ara"></label>
+  </div>
+  <div id="tech-grid" class="tech-grid" aria-live="polite"></div>
+  <div class="tech-note"><strong>Fiyat notu:</strong> Fiyatlar Türkiye içindir; kampanya, stok ve konfigürasyona göre değişebilir. <span>Otomatik yenileme: sayfa açılışında ve yaklaşık 6 saatte bir.</span></div>
+</section>
+
+<section class="feature">
+  <div class="feature-img"><img src="photos/oguzhan-style-mirror.jpg" alt="Oğuzhan için oluşturulmuş sinematik ayna portresi"></div>
+  <div class="feature-copy">
+    <span class="label">STYLE STUDY / 2026</span>
+    <h2>Şehrin içinde.<br><em>Kendi çizgisinde.</em></h2>
+    <p>Yeni görsel dili sitenin karakteriyle birleştirildi: daha iyi kıyafet seçimi, daha güçlü duruş, koyu tonlar ve sıcak sinematik ışık.</p>
+  </div>
+</section>
+
+<section id="gallery" class="section gallery">
+  <div class="gallery-head">
+    <div class="label">04 / ARŞİV</div>
+    <p>Buradaki görseller yüklediğin fotoğraflardan ve yeni oluşturduğumuz sinematik çalışmalardan oluşuyor. Instagram profilin de doğrudan bağlı.</p>
+  </div>
+  <div id="gallery-grid" class="masonry">
+    <figure class="g big lightbox-item"><img src="photos/oguzhan-style-outdoor.jpg" alt="Oğuzhan — yeni dış mekân stili"><figcaption>01 · OUTDOOR EDITORIAL</figcaption><a class="image-download" href="photos/oguzhan-style-outdoor.jpg" download>İNDİR ↓</a></figure>
+    <figure class="g lightbox-item"><img src="photos/oguzhan-style-mirror.jpg" alt="Oğuzhan — yeni ayna stili"><figcaption>02 · MIRROR EDITORIAL</figcaption><a class="image-download" href="photos/oguzhan-style-mirror.jpg" download>İNDİR ↓</a></figure>
+    <figure class="g tall lightbox-item"><img src="photos/photo-original-4.jpg" alt="Oğuzhan — gün batımında"><figcaption>03 · SUNSET</figcaption><a class="image-download" href="photos/photo-original-4.jpg" download>İNDİR ↓</a></figure>
+    <figure class="g wide lightbox-item"><img src="photos/generated-night.png" alt="Oğuzhan — gece şehir portresi"><figcaption>06 · NIGHT / CITY</figcaption><a class="image-download" href="photos/generated-night.png" download>İNDİR ↓</a></figure>
+  </div>
+</section>
+
+<section class="instagram-strip">
+  <div class="insta-copy">
+    <span class="label">INSTAGRAM / @OGUZHN_SNL</span>
+    <h2>Güncel fotoğraflar<br><em>oradan devam ediyor.</em></h2>
+    <p>Profilime geç, yeni fotoğrafları ve günlük paylaşımları gör.</p>
+    <div class="quick-links"><a class="btn light" href="https://www.instagram.com/oguzhn_snl/" target="_blank" rel="noopener">INSTAGRAM'I AÇ <span>↗</span></a> <a class="mail-mini" href="mailto:oguzhn.snln@gmail.com">oguzhn.snln@gmail.com</a></div>
+  </div>
+  <div class="insta-side">
+    <div class="ig-box">OŞ</div>
+    <div class="ig-handle">@oguzhn_snl</div>
+  </div>
+</section>
+
+<section class="quote">
+  <div class="q-mark">“</div>
+  <p>Herkesin baktığı yere değil,<br><em>kendi gördüğüm yere bakarım.</em></p>
+</section>
+
+
+<section id="music" class="section music">
+  <div class="label">06 / SOUNDTRACK</div>
+  <div class="music-grid">
+    <div>
+      <span class="music-kicker">OĞUZHAN'IN MÜZİK DÜNYASI</span>
+      <h2>Bu sitenin<br><em>bir sesi var.</em></h2>
+      <p>Genel olarak rap dinlediğini baz alarak siteye ayrı bir soundtrack alanı ekledim. Ana seçim: Wegh.</p>
+      <a class="btn dark" href="https://www.youtube.com/watch?v=Vxm666Lk1ms" target="_blank" rel="noopener">YOUTUBE'DA AÇ <span>↗</span></a>
+    </div>
+    <div class="music-player">
+      <div class="player-head"><span>NOW / WEgh</span><span>01</span></div>
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/Vxm666Lk1ms?rel=0"
+          title="Wegh - Halef Selef"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+      </div>
+      <div class="track-meta">
+        <div><strong>Halef Selef</strong><span>Wegh · Official Music Video</span></div>
+        <a href="https://www.youtube.com/watch?v=Vxm666Lk1ms" target="_blank" rel="noopener">↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="wegh-archive" class="section wegh-archive">
+  <div class="label">07 / WEGH ARŞİVİ</div>
+  <div class="archive-intro">
+    <div>
+      <h2>Rap tarafımın<br><em>favori dünyası.</em></h2>
+      <p>Wegh için geniş bir müzik arşivi ekledim. Parçalar yılları ve yayın türleriyle listeleniyor; her satırdan YouTube araması açılabiliyor.</p>
+    </div>
+    <div class="covers">
+      <a href="https://music.apple.com/tr/album/curcuna/1876194773" target="_blank" rel="noopener"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0b/c6/40/0bc6407b-a3b4-7e1c-f7b9-b3d500411004/0.jpg/1000x1000bb.jpg" alt="Halef Selef kapak"></a>
+      <a href="https://music.apple.com/tr/album/16-24-single/1794312173" target="_blank" rel="noopener"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b5/bc/9ab5bcb5-a3d7-0ab0-0db0-23bba03ef89a/cover.jpg/1000x1000cc.webp" alt="16-24 kapak"></a>
+      <a href="https://open.spotify.com/album/4HudXoLTEPSucWrMRWfiVf" target="_blank" rel="noopener"><img src="https://i.scdn.co/image/ab67616d0000b273835409367cbb219234cc99f2" alt="Depar kapak"></a>
+      <a href="https://www.shazam.com/song/1798238491/yanlc4b1c59flarla-karc59fc4b1lac59ftc4b1m" target="_blank" rel="noopener"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b5/bc/9ab5bcb5-a3d7-0ab0-0db0-23bba03ef89a/cover.jpg/600x600cc.webp" alt="Yanlışlarla Karşılaştım kapak"></a>
+      <a href="https://soundcloud.com/askoposs/wegh-tutun-ve-votka" target="_blank" rel="noopener"><img src="https://i1.sndcdn.com/artworks-Kgpi0qsCJQkZFqgW-mcp7ww-t500x500.jpg" alt="Tütün ve Votka kapak"></a>
+    </div>
+  </div>
+  <div class="track-list"><article class="track">
+  <span class="track-no">01</span>
+  <div class="track-main"><strong>Intro</strong><span>CURCUNA · 2026</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Intro" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">02</span>
+  <div class="track-main"><strong>Tütün ve Votka</strong><span>CURCUNA · 2026</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Tütün+ve+Votka" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">03</span>
+  <div class="track-main"><strong>Geri Ver</strong><span>CURCUNA · 2026</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Geri+Ver" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">04</span>
+  <div class="track-main"><strong>Radikal Eşkiya (feat. Şehinşah)</strong><span>CURCUNA · 2026</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Radikal+Eşkiya+(feat.+Şehinşah)" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">05</span>
+  <div class="track-main"><strong>Balbiber</strong><span>CURCUNA · 2026</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Balbiber" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">06</span>
+  <div class="track-main"><strong>Daha Çok Var</strong><span>CURCUNA · 2026</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Daha+Çok+Var" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">07</span>
+  <div class="track-main"><strong>Halef Selef</strong><span>CURCUNA · 2026</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Halef+Selef" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">08</span>
+  <div class="track-main"><strong>ŞSS</strong><span>CURCUNA · 2026</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+ŞSS" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">09</span>
+  <div class="track-main"><strong>Outro</strong><span>CURCUNA · 2026</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Outro" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">10</span>
+  <div class="track-main"><strong>Tuzak</strong><span>Single · 2026</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Tuzak" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">11</span>
+  <div class="track-main"><strong>Geri Ver</strong><span>Single · 2025/2026</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Geri+Ver" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">12</span>
+  <div class="track-main"><strong>Güldüğün Gün</strong><span>Single · 2025</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Güldüğün+Gün" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">13</span>
+  <div class="track-main"><strong>16-24</strong><span>Single · 2025</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+16-24" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">14</span>
+  <div class="track-main"><strong>Yanlışlarla Karşılaştım</strong><span>Single · 2025</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Yanlışlarla+Karşılaştım" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">15</span>
+  <div class="track-main"><strong>Göz Ucuyla (feat. Reynmen)</strong><span>Single · 2025</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Göz+Ucuyla+(feat.+Reynmen)" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">16</span>
+  <div class="track-main"><strong>Tütün ve Votka</strong><span>Single · 2025</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Tütün+ve+Votka" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">17</span>
+  <div class="track-main"><strong>55-53 (Keskin &amp; Wegh)</strong><span>Single · 2025</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+55-53+(Keskin+&+Wegh)" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">18</span>
+  <div class="track-main"><strong>kum saati</strong><span>Single · 2025</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+kum+saati" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">19</span>
+  <div class="track-main"><strong>Karardı Bulutlar</strong><span>Single · 2024</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Karardı+Bulutlar" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">20</span>
+  <div class="track-main"><strong>aq</strong><span>Single · 2024</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+aq" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">21</span>
+  <div class="track-main"><strong>Sana Vuruldum (Ulubatlı Hasan)</strong><span>Single · 2024</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Sana+Vuruldum+(Ulubatlı+Hasan)" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">22</span>
+  <div class="track-main"><strong>Kennedy&#x27;i Ben Vurdum</strong><span>Single · 2024</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Kennedy'i+Ben+Vurdum" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">23</span>
+  <div class="track-main"><strong>AM2TERDAM</strong><span>Collab · 2024</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+AM2TERDAM" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">24</span>
+  <div class="track-main"><strong>9mm</strong><span>Collab · 2024</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+9mm" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">25</span>
+  <div class="track-main"><strong>Yağsın Dünya Üstüme</strong><span>Single · 2023</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Yağsın+Dünya+Üstüme" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">26</span>
+  <div class="track-main"><strong>Çöp Şiş</strong><span>Single · 2023</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Çöp+Şiş" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">27</span>
+  <div class="track-main"><strong>Çok İnsan Affettim</strong><span>Single · 2023</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Çok+İnsan+Affettim" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">28</span>
+  <div class="track-main"><strong>RUMİ MADAFAKA</strong><span>Single · 2023</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+RUMİ+MADAFAKA" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">29</span>
+  <div class="track-main"><strong>Bu Ben Olmamak</strong><span>Single · 2023</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Bu+Ben+Olmamak" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">30</span>
+  <div class="track-main"><strong>Galactus</strong><span>EP · 2023</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Galactus" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">31</span>
+  <div class="track-main"><strong>Halit Abi</strong><span>Single · 2023</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Halit+Abi" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">32</span>
+  <div class="track-main"><strong>Maskara</strong><span>Single · 2023</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Maskara" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">33</span>
+  <div class="track-main"><strong>Kin (feat. Critical)</strong><span>Single · 2023</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Kin+(feat.+Critical)" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">34</span>
+  <div class="track-main"><strong>Toz Duman</strong><span>Single · 2022</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Toz+Duman" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">35</span>
+  <div class="track-main"><strong>Pringles</strong><span>Single · 2022</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Pringles" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">36</span>
+  <div class="track-main"><strong>Senin Olamam</strong><span>Single · 2022</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Senin+Olamam" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">37</span>
+  <div class="track-main"><strong>Amon Ra</strong><span>EP · 2022</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Amon+Ra" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">38</span>
+  <div class="track-main"><strong>Depar</strong><span>Single · 2021</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Depar" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">39</span>
+  <div class="track-main"><strong>P.U.T.A.</strong><span>Single · 2021</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+P.U.T.A." target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">40</span>
+  <div class="track-main"><strong>Canım İstedi</strong><span>Single · 2021</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Canım+İstedi" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article>
+<article class="track">
+  <span class="track-no">41</span>
+  <div class="track-main"><strong>Pardon</strong><span>Single · 2021</span></div>
+  <a href="https://www.youtube.com/results?search_query=Wegh+Pardon" target="_blank" rel="noopener">YOUTUBE ↗</a>
+</article></div>
+</section>
+
+
+<!-- PERSONAL_EXPANSION -->
+<section id="profile" class="section personal-expansion">
+  <div class="section-head">
+    <div><span class="eyebrow">01 / OĞUZHAN</span><h2>Benim dünyam.</h2></div>
+    <p>Merak, müzik, teknoloji, yazı ve yolculuklar etrafında şekillenen kişisel bir arşiv.</p>
+  </div>
+  <div class="personal-grid">
+    <article class="personal-card"><span>01</span><h3>Teknoloji & Bilgisayar</h3><p>Bilgisayarlar ve teknoloji dünyası ilgimin merkezinde. Yeni şeyler keşfetmek, kurcalamak ve dijital dünyayı yakından takip etmek benim için doğal bir merak.</p></article>
+    <article class="personal-card"><span>02</span><h3>Müzik</h3><p>Özellikle rap dinliyorum. Wegh arşivi bu sitenin müzik tarafının önemli bir parçası; soundtrack olarak da Noma — Sabah Beş yer alıyor.</p></article>
+    <article class="personal-card"><span>03</span><h3>Yazmak</h3><p>Yazıyla ilgileniyorum. Düşünceleri kelimelere dökmek, fikirleri saklamak ve kişisel arşiv oluşturmak benim için ayrı bir alan.</p></article>
+    <article class="personal-card"><span>04</span><h3>Seyahat & Keşif</h3><p>Yeni yerler görmek ve yolda yeni hikâyeler toplamak hoşuma gidiyor. Şehir, gece ve sokak atmosferi görsel dünyamda da kendini gösteriyor.</p></article>
+    <article class="personal-card"><span>05</span><h3>Görsel Tarz</h3><p>Koyu, sinematik, siyah ve antrasit tonlar; kontrollü kırmızı vurgular; güçlü ışık-gölge ve modern şehir estetiği.</p></article>
+    <article class="personal-card"><span>06</span><h3>Kişisel Arşiv</h3><p>Fotoğraflar, müzikler, fikirler ve oluşturduğumuz görsel çalışmalar burada tek bir dijital hikâyede birleşiyor.</p></article>
+  </div>
+</section>
+
+<section class="section timeline-section">
+  <div class="section-head">
+    <div><span class="eyebrow">02 / KISA BİLGİ</span><h2>Oğuzhan, özetle.</h2></div>
+  </div>
+  <div class="timeline-grid">
+    <div><strong>26.06.1997</strong><span>Doğum tarihi</span></div>
+    <div><strong>TECH</strong><span>Bilgisayar & teknoloji merakı</span></div>
+    <div><strong>RAP</strong><span>Müzik dünyasındaki ana damar</span></div>
+    <div><strong>WRITE</strong><span>Yazıyla ilgileniyor</span></div>
+    <div><strong>TRAVEL</strong><span>Yeni yerler & keşif</span></div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="label">08 / İLETİŞİM</div>
+  <div class="contact-grid">
+    <div><h2>Bir fikir varsa,<br><em>konuşuruz.</em></h2></div>
+    <div class="contact-list">
+      <a href="https://www.instagram.com/oguzhn_snl/" target="_blank" rel="noopener">Instagram <span>↗</span></a>
+      <a href="https://wa.me/905058269235" target="_blank" rel="noopener">WhatsApp <span>↗</span></a>
+      <a href="mailto:oguzhn.snln@gmail.com">E-posta <span>↗</span></a>
+    </div>
+  </div>
+</section>
+</main>
+<footer><span>© 2026 OĞUZHAN ŞANALAN</span><div><a href="https://www.instagram.com/oguzhn_snl/" target="_blank" rel="noopener">@OGUZHN_SNL ↗</a></div></footer>
+
+
+
+<!-- Admin yönetimi artık PHPsiz olarak bu sayfanın içinde çalışır. OŞ logosuna tıklayın. -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-close" type="button" aria-label="Kapat">×</button>
+  <button class="lb-prev" type="button" aria-label="Önceki">‹</button>
+  <div class="lb-stage"><img id="lb-image" src="" alt=""></div>
+  <button class="lb-next" type="button" aria-label="Sonraki">›</button>
+  <div class="lb-caption" id="lb-caption"></div>
+</div>
+<script src="script.js"></script>
+<script src="admin.js"></script>
+<script src="site-content.js"></script>
+<script src="music.js"></script>
+<script src="tech.js"></script>
+</body>
+</html>

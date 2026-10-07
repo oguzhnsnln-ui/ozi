@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "\.(json|php)$">
+  Require all denied
+</FilesMatch>

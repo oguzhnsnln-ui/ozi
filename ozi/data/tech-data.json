@@ -1,0 +1,447 @@
+{
+  "generated_at": "2026-10-06T10:35:00+03:00",
+  "products": [
+    {
+      "name": "iPhone 18 Pro",
+      "brand": "Apple",
+      "type": "phone",
+      "price": 137999,
+      "summary": "A20 Pro · 6.3 inç Super Retina XDR · değişken diyaframlı 48 MP Pro Fusion",
+      "specs": [
+        [
+          "İşlemci",
+          "A20 Pro"
+        ],
+        [
+          "Ekran",
+          "6.3\" Super Retina XDR OLED"
+        ],
+        [
+          "Kamera",
+          "48 MP Pro Fusion / değişken diyafram"
+        ],
+        [
+          "Depolama",
+          "256 GB–2 TB"
+        ],
+        [
+          "Ön kamera",
+          "18 MP Center Stage"
+        ]
+      ],
+      "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-18-pro",
+      "source": "Apple Türkiye",
+      "image": "https://iphonekaitori.tokyo/upload/goods/20260911/iPhone%2018%20Pro%20256GB%20Silver.png",
+      "id": "p001",
+      "managed": false
+    },
+    {
+      "name": "iPhone 17",
+      "brand": "Apple",
+      "type": "phone",
+      "price": 99999,
+      "summary": "A19 · 6.3 inç ProMotion · 48 MP Dual Fusion",
+      "specs": [
+        [
+          "İşlemci",
+          "A19"
+        ],
+        [
+          "Ekran",
+          "6.3\" Super Retina XDR • 120 Hz"
+        ],
+        [
+          "Kamera",
+          "48 MP Dual Fusion"
+        ],
+        [
+          "Depolama",
+          "256 / 512 GB"
+        ],
+        [
+          "Pil",
+          "30 saate kadar video"
+        ]
+      ],
+      "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-17",
+      "source": "Apple Türkiye",
+      "image": "https://media.power-cdn.net/images/h-0acac243530744f0b9abf159dc3c440f/products/4157285/4157285_2_1200x1200_w_g.jpg",
+      "id": "p002",
+      "managed": false
+    },
+    {
+      "name": "iPhone Air",
+      "brand": "Apple",
+      "type": "phone",
+      "price": 84999,
+      "summary": "A19 Pro · ultra ince tasarım · 48 MP Fusion",
+      "specs": [
+        [
+          "İşlemci",
+          "A19 Pro"
+        ],
+        [
+          "Ekran",
+          "6.5\" OLED"
+        ],
+        [
+          "Kamera",
+          "48 MP Fusion"
+        ],
+        [
+          "Tasarım",
+          "Titanyum / ultra ince"
+        ],
+        [
+          "Video",
+          "4K Dolby Vision"
+        ]
+      ],
+      "url": "https://www.apple.com/tr/shop/buy-iphone",
+      "source": "Apple Türkiye",
+      "image": "https://i-system.gr/storage/i3commerce/images/i/p/iphone_air_cloud_white_3_up_screen_usen_img_03.jpg",
+      "id": "p003",
+      "managed": false
+    },
+    {
+      "name": "Galaxy S26 Ultra",
+      "brand": "Samsung",
+      "type": "phone",
+      "price": 132999,
+      "summary": "6.9 inç · 200 MP · Snapdragon 8 Elite Gen 5",
+      "specs": [
+        [
+          "İşlemci",
+          "Snapdragon 8 Elite Gen 5"
+        ],
+        [
+          "Ekran",
+          "6.9\" AMOLED"
+        ],
+        [
+          "Kamera",
+          "200 MP"
+        ],
+        [
+          "RAM",
+          "12 / 16 GB"
+        ],
+        [
+          "Depolama",
+          "256 GB–1 TB"
+        ]
+      ],
+      "url": "https://www.samsung.com/tr/smartphones/galaxy-s26-ultra/buy/",
+      "source": "Samsung Türkiye",
+      "image": "https://www.powerplanetonline.com/cdnassets/products/102888/samsung-galaxy-s26-ultra-cobalt-violet-rendimiento-snapdragon-8-elite-gen5_l.webp",
+      "id": "p004",
+      "managed": false
+    },
+    {
+      "name": "Galaxy S26+",
+      "brand": "Samsung",
+      "type": "phone",
+      "price": 103999,
+      "summary": "6.7 inç · 12 GB RAM · Galaxy S26 serisi",
+      "specs": [
+        [
+          "RAM",
+          "12 GB"
+        ],
+        [
+          "Ekran",
+          "6.7\" AMOLED"
+        ],
+        [
+          "Depolama",
+          "256 / 512 GB"
+        ],
+        [
+          "Pil",
+          "4900 mAh"
+        ],
+        [
+          "Seri",
+          "Galaxy S26"
+        ]
+      ],
+      "url": "https://www.samsung.com/tr/smartphones/galaxy-s26/buy/",
+      "source": "Samsung Türkiye",
+      "image": "https://microless.com/cdn/products/9995f5de2a9b54d198fe4a52323a0e32-hi.jpg",
+      "id": "p005",
+      "managed": false
+    },
+    {
+      "name": "Galaxy S26",
+      "brand": "Samsung",
+      "type": "phone",
+      "price": 86999,
+      "summary": "6.3 inç · 12 GB RAM · Galaxy S26 serisi",
+      "specs": [
+        [
+          "RAM",
+          "12 GB"
+        ],
+        [
+          "Ekran",
+          "6.3\" AMOLED"
+        ],
+        [
+          "Depolama",
+          "256 / 512 GB"
+        ],
+        [
+          "Pil",
+          "4300 mAh"
+        ],
+        [
+          "Seri",
+          "Galaxy S26"
+        ]
+      ],
+      "url": "https://www.samsung.com/tr/smartphones/galaxy-s26/buy/",
+      "source": "Samsung Türkiye",
+      "image": "https://api.technopolis.bg/medias/Product-details-main-509884.jpg?context=bWFzdGVyfHJvb3R8MjIzNjU4fGltYWdlL2pwZWd8YURjMkwyZ3pZaTgyTVRZME56WXhOVFE1TWpFeU5pOVFjbTlrZFdOMExXUmxkR0ZwYkhNdGJXRnBibDgxTURrNE9EUXVhbkJufGEyMzI5YTIwZTI5NDk0NzE0MGZjMWFmM2MxMjlkMDQ5YTI4YTZkODBhNWE1ZTMyNDcwMmUzMmMzZTE4NWUyZGY",
+      "id": "p006",
+      "managed": false
+    },
+    {
+      "name": "HONOR Magic V6",
+      "brand": "HONOR",
+      "type": "phone",
+      "price": 129999,
+      "summary": "Katlanabilir · 16 GB + 512 GB · 6660 mAh · 100W",
+      "specs": [
+        [
+          "İşlemci",
+          "Snapdragon 8 Elite Gen 5"
+        ],
+        [
+          "Ekran",
+          "7.95\" iç / 6.52\" dış"
+        ],
+        [
+          "RAM",
+          "16 GB"
+        ],
+        [
+          "Depolama",
+          "512 GB"
+        ],
+        [
+          "Pil",
+          "6660 mAh"
+        ]
+      ],
+      "url": "https://trshop.honor.com/products/honor-magic-v6",
+      "source": "HONOR Türkiye",
+      "image": "https://admin.mob.hr/uploads/blog/thumbs/thumb2_honor-Magic-V6-red-images-1-1.png",
+      "id": "p007",
+      "managed": false
+    },
+    {
+      "name": "MacBook Air 13\" M5",
+      "brand": "Apple",
+      "type": "computer",
+      "price": 84999,
+      "summary": "M5 · 13.6 inç Liquid Retina · 16 GB · 512 GB",
+      "specs": [
+        [
+          "Çip",
+          "Apple M5"
+        ],
+        [
+          "Ekran",
+          "13.6\" Liquid Retina"
+        ],
+        [
+          "Bellek",
+          "16 GB temel"
+        ],
+        [
+          "Depolama",
+          "512 GB temel"
+        ],
+        [
+          "Pil",
+          "18 saate kadar video"
+        ]
+      ],
+      "url": "https://www.apple.com/tr/macbook-air/",
+      "source": "Apple Türkiye",
+      "image": "https://proinside.net/wa-data/public/shop/products/57/26/2657/images/12973/12973.970.jpg",
+      "id": "p008",
+      "managed": false
+    },
+    {
+      "name": "MacBook Pro 14\" M5",
+      "brand": "Apple",
+      "type": "computer",
+      "price": 129999,
+      "summary": "M5 · 14.2 inç Liquid Retina XDR · profesyonel kullanım",
+      "specs": [
+        [
+          "Çip",
+          "Apple M5"
+        ],
+        [
+          "Ekran",
+          "14.2\" Liquid Retina XDR"
+        ],
+        [
+          "Bellek",
+          "16 GB temel"
+        ],
+        [
+          "Depolama",
+          "512 GB temel"
+        ],
+        [
+          "Portlar",
+          "Thunderbolt 4 / HDMI / SDXC"
+        ]
+      ],
+      "url": "https://www.apple.com/tr/shop/buy-mac/macbook-pro",
+      "source": "Apple Türkiye",
+      "image": "https://image.vandenborre.be/WEB/images/products/superzoom/apple_mbp14-m5-32-1tb-sl_7626606_1.jpg",
+      "id": "p009",
+      "managed": false
+    },
+    {
+      "name": "MacBook Pro 14\" M5 Pro",
+      "brand": "Apple",
+      "type": "computer",
+      "price": 174374,
+      "summary": "M5 Pro · 14.2 inç Liquid Retina XDR · yüksek performans",
+      "specs": [
+        [
+          "Çip",
+          "Apple M5 Pro"
+        ],
+        [
+          "Ekran",
+          "14.2\" Liquid Retina XDR"
+        ],
+        [
+          "Bellek",
+          "24 GB temel"
+        ],
+        [
+          "Depolama",
+          "1 TB temel"
+        ],
+        [
+          "Portlar",
+          "Thunderbolt 5 / HDMI / SDXC"
+        ]
+      ],
+      "url": "https://www.apple.com/tr/shop/buy-mac/macbook-pro",
+      "source": "Apple Türkiye",
+      "image": "https://image.vandenborre.be/WEB/images/products/superzoom/apple_mbp14-m5-32-1tb-sl_7626606_1.jpg",
+      "id": "p010",
+      "managed": false
+    },
+    {
+      "name": "ROG Zephyrus G16 (2026)",
+      "brand": "ASUS",
+      "type": "computer",
+      "price": 166880.68,
+      "summary": "Core Ultra 9 386H · RTX 5070 · 16\" 2.5K 240Hz OLED",
+      "specs": [
+        [
+          "CPU",
+          "Core Ultra 9 386H"
+        ],
+        [
+          "GPU",
+          "RTX 5070 Laptop"
+        ],
+        [
+          "Ekran",
+          "16\" 2.5K 240Hz OLED"
+        ],
+        [
+          "SSD",
+          "2 TB NVMe"
+        ],
+        [
+          "NPU",
+          "50 TOPS’e kadar"
+        ]
+      ],
+      "url": "https://rog.asus.com/tr/laptops/rog-zephyrus/rog-zephyrus-g16-2026/",
+      "source": "ASUS Türkiye",
+      "image": "https://cdn.hstatic.net/products/200000507631/28106_laptop_asus_rog_zephyrus_g16_gu605cm_qr078w_b972bc1ad64240a5ac93693c4b83f807.jpg",
+      "id": "p011",
+      "managed": false
+    },
+    {
+      "name": "ROG Zephyrus G16 RTX 5090",
+      "brand": "ASUS",
+      "type": "computer",
+      "price": 306314.77,
+      "summary": "Core Ultra 9 386H · RTX 5090 · 16\" 2.5K 240Hz OLED",
+      "specs": [
+        [
+          "CPU",
+          "Core Ultra 9 386H"
+        ],
+        [
+          "GPU",
+          "RTX 5090 Laptop"
+        ],
+        [
+          "Ekran",
+          "16\" 2.5K 240Hz OLED"
+        ],
+        [
+          "SSD",
+          "2 TB NVMe"
+        ],
+        [
+          "RAM",
+          "Konfigürasyona göre"
+        ]
+      ],
+      "url": "https://rog.asus.com/tr/laptops/rog-zephyrus/rog-zephyrus-g16-2026/",
+      "source": "ASUS Türkiye",
+      "image": "https://cdn.hstatic.net/products/200000507631/28106_laptop_asus_rog_zephyrus_g16_gu605cm_qr078w_b972bc1ad64240a5ac93693c4b83f807.jpg",
+      "id": "p012",
+      "managed": false
+    },
+    {
+      "name": "HP OMEN 16 RTX 5070",
+      "brand": "HP",
+      "type": "computer",
+      "price": 116795,
+      "summary": "Core Ultra 7 255H · RTX 5070 · 32 GB · 1.5 TB",
+      "specs": [
+        [
+          "CPU",
+          "Core Ultra 7 255H"
+        ],
+        [
+          "GPU",
+          "RTX 5070 8 GB GDDR7"
+        ],
+        [
+          "RAM",
+          "32 GB DDR5"
+        ],
+        [
+          "SSD",
+          "1 TB + 512 GB"
+        ],
+        [
+          "Ekran",
+          "16\" 1920×1200 144Hz IPS"
+        ]
+      ],
+      "url": "https://www.hp.com/tr-tr/products/laptops/",
+      "source": "HP Türkiye",
+      "image": "https://productimages.hepsiburada.net/s/777/424-600/110001292210345.jpg",
+      "id": "p013",
+      "managed": false
+    }
+  ]
+}

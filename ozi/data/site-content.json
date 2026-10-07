@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "profile": {
+    "image": "photos/profile.jpg",
+    "full": "photos/profil-full.jpg",
+    "alt": "Oğuzhan Şanalan profil fotoğrafı"
+  },
+  "hero": {
+    "image": "photos/hero-background.jpg"
+  },
+  "gallery": [
+    {
+      "id": "g1",
+      "image": "photos/oguzhan-style-outdoor.jpg",
+      "title": "01 · OUTDOOR EDITORIAL",
+      "alt": "Oğuzhan — yeni dış mekân stili"
+    },
+    {
+      "id": "g2",
+      "image": "photos/oguzhan-style-mirror.jpg",
+      "title": "02 · MIRROR EDITORIAL",
+      "alt": "Oğuzhan — yeni ayna stili"
+    },
+    {
+      "id": "g3",
+      "image": "photos/photo-original-4.jpg",
+      "title": "03 · SUNSET",
+      "alt": "Oğuzhan — gün batımında"
+    },
+    {
+      "id": "g4",
+      "image": "photos/generated-night.png",
+      "title": "06 · NIGHT / CITY",
+      "alt": "Oğuzhan — gece şehir portresi"
+    }
+  ],
+  "music": {
+    "enabled": true,
+    "src": "media/music/sabah-bes.mp3",
+    "title": "Sabah Beş",
+    "artist": "Noma",
+    "loop": true,
+    "volume": 1
+  }
+}
